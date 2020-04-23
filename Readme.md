@@ -6,6 +6,12 @@ The data source I am going to use is from kaggle here the link: [dataset interna
 
 ## Architecture
 ![architecture](resources/International_football_results_analysis.jpg)
+
+#### Model diagram
+![model](resources/schema_games_table.png)
+
+#### Data Lineage 
+![datalineage](resources/data_lineage.png)  
   
 ## Requisite  
 * Access to GCP.
@@ -20,7 +26,7 @@ Bucket name = int_football_bucket
 * int_football_bucket/spark_jobs
 
 
-### Cloud Composer
+#### Cloud Composer
 It is necessary to define the following variables in the instance of cloud composer UI: 
 * gc_project_id
 * gc_region
